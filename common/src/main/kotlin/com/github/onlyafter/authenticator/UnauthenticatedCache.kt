@@ -1,4 +1,9 @@
 package com.github.onlyafter.authenticator
 
-class UnauthenticatedCache {
+interface UnauthenticatedCache {
+
+    fun addPlayer(playerName: String)
+    fun removePlayer(playerName: String)
+    fun isAuthenticated(playerName: String): Boolean
+
 }
