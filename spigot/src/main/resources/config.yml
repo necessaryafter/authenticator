@@ -1,0 +1,16 @@
+configuration:
+  permission: "authenticator.use"
+
+  messages:
+    authenticate-success:
+      - ""
+      - "&a&l BOA!&a Você autenticou-se como um"
+      - "&a membro da equipe, bom jogo."
+      - ""
+    authenticate:
+      - ""
+      - "&a&l EI! &aVocê é um membro da equipe"
+      - "&a autentique-se usando o Google Auth."
+      - ""
+      - "&f Seu código: &7{key}"
+      - ""
